@@ -1,8 +1,0 @@
-﻿  BroblemF.cpp
-  ProblemG.cpp
-C:\My projects C++\summer\code_1\code_1\ProblemG.cpp(5,27): warning C4244: инициализация: преобразование "double" в "__int64", возможна потеря данных
-C:\My projects C++\summer\code_1\code_1\ProblemG.cpp(44,44): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  Создание кода...
-  code_1.vcxproj -> C:\My projects C++\summer\code_1\x64\Debug\code_1.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
