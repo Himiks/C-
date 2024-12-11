@@ -29,7 +29,7 @@ int main() {
 	builder.append_query(U("to"), utility::conversions::to_string_t(to));
 	builder.append_query(U("from"), utility::conversions::to_string_t(from));
 	builder.append_query(U("amount"), utility::conversions::to_string_t(amount));
-	builder.append_query(U("apikey"), U("M4TQC3ZkdWewLUO4WTKnuIj6VJMy3lns"));
+	builder.append_query(U(""), U(""));
 
 
 	http_request request(methods::GET);
