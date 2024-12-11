@@ -20,7 +20,7 @@ int main() {
 	http_client client(U("https://api.openweathermap.org/data/2.5"));
 	uri_builder buider(U("/weather"));
 	buider.append_query(U("q"), utility::conversions::to_string_t(city));
-	buider.append_query(U("appid"), U("c9addd8b7725db599e2542cf07a6b226"));
+	buider.append_query(U(""), U(""));
 	http_request request(methods::GET);
 	request.set_request_uri(buider.to_string());
 
