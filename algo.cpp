@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 #include<thread>
 #include<chrono>
 #include<stack>
@@ -170,9 +170,9 @@ int main() {
 
 
 
-}*/
+}
 
-/*#include<iostream>
+#include<iostream>
 #include<algorithm>
 #include<vector>
 
@@ -203,7 +203,7 @@ int main() {
 	}
 
 
-}*/
+}
 
 
 #include<iostream>
