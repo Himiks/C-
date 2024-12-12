@@ -1,4 +1,4 @@
-﻿/*#include<iostream>
+﻿#include<iostream>
 #include<list>
 using namespace std;
 int main() {
@@ -28,11 +28,11 @@ int main() {
 		cout << i << " ";
 	}
 
-}*/
+}
 
 
 
-/*#include<iostream>
+#include<iostream>
 #include<vector>
 using namespace std;
 typedef vector<int> myvector;
@@ -64,11 +64,11 @@ int main() {
 
 
 
-}*/
+}
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 struct elem {
 	int num;
@@ -196,11 +196,11 @@ elem* erase(elem*& first, elem*& last, elem* curr) {
 
 
 
-}*/
+}
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 struct elem {
@@ -346,12 +346,12 @@ int main() {
 	aa.insert(p, 99);
 	aa.print();
 	
-}*/
+}
 
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 void print(int* arr, int len);
@@ -453,12 +453,12 @@ void erase(int*& arr, int& len, int k) {
 
 int& at(int* arr, int k) {
 	return arr[k];
-}*/
+}
 
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class myvector {
 	int* arr;
@@ -572,7 +572,7 @@ void myvector::insert(int k, int val) {
 
 int& myvector::at(int k) {
 	return arr[k];
-}*/
+}
 
 
 
@@ -580,7 +580,7 @@ int& myvector::at(int k) {
 
 
 ///////////////Templets /////
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 class myvector {
@@ -641,11 +641,11 @@ int main() {
 
 
 
-}*/
+}
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class myvector {
 	int* arr;
@@ -708,12 +708,12 @@ myvector::~myvector() {
 	if (len > 0) {
 		delete[] arr;
 	}
-}*/
+}
 
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 template<class X>
 X add(X a, X b) {
@@ -729,12 +729,12 @@ int main() {
 	string s = "Hello", t = "World";
 	cout << add(s, t) << endl;
 
-}*/
+}
 
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 template<class T>
 class myvector {
@@ -795,11 +795,11 @@ int main() {
 
 
 
-}*/
+}
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 template<class X>
 class myvector {
@@ -867,11 +867,11 @@ myvector<X>::~myvector() {
 	if (len > 0) {
 		delete[] arr;
 	}
-}*/
+}
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 template<class X, class Y>
 struct mypair {
@@ -890,12 +890,12 @@ int main() {
 	mypair<string, int> p("John", 20);
 	p.print(cout);
 
-}*/
+}
 
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 template<class X = int, class Y = int>
 struct mypair {
@@ -916,11 +916,11 @@ int main() {
 	mypair<> p(5, 7);
 	p.print(cout);
 
-}*/
+}
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class myvector {
 	int* aa;
@@ -985,11 +985,11 @@ int main() {
 
 
 
-}*/
+}
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class myvector {
 	int* aa;
@@ -1051,11 +1051,10 @@ int main() {
 
 
 }
-*/
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 class myvector {
@@ -1132,11 +1131,11 @@ int main() {
 
 
 
-}*/
+}
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 class myvector {
@@ -1233,11 +1232,11 @@ int main() {
 
 
 
-}*/
+}
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main() {
 	string s = "ello";
@@ -1266,12 +1265,12 @@ int main() {
 
 
 
-}*/
+}
 
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 class myvector {
@@ -1394,10 +1393,10 @@ int main() {
 
 
 
-}*/
+}
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 class myvector {
@@ -1496,7 +1495,7 @@ int main() {
 
 
 
-}*/
+}
 
 
 
