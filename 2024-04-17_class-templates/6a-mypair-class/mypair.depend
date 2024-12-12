@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1680702402 source:c:\users\janisz\dropbox\acad\courses\prog\slides-def\src\sdf 09 class-templates\mypair-class\main.cpp
+	<iostream>
+	"mypair.h"
+
+1680702468 c:\users\janisz\dropbox\acad\courses\prog\slides-def\src\sdf 09 class-templates\mypair-class\mypair.h
+	<iostream>
+
+1680702392 source:c:\users\janisz\dropbox\acad\courses\prog\slides-def\src\sdf 09 class-templates\mypair-class\mypair.cpp
+	"mypair.h"
+
