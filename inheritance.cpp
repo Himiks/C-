@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class person {
 	string name;
@@ -59,11 +59,11 @@ int main() {
 	teacher t("John", 1971, "professor");
 	t.print();
 
-}*/
+}
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class person {
 	string name;
@@ -142,11 +142,11 @@ int main() {
 	delete t;
 
 
-}*/
+}
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class person {
 protected:
@@ -239,10 +239,10 @@ int main() {
 	p->print();
 	delete p;
 
-}*/
+}
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 
@@ -314,10 +314,10 @@ int main() {
 		delete pp[i];
 	}
 
-}*/
+}
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class person {
 	string name;
@@ -347,12 +347,12 @@ int main() {
 
 
 
-}*/
+}
 
 
 
 
-/*#include<iostream>
+#include<iostream>
 #include<vector>
 using namespace std;
 
@@ -398,7 +398,7 @@ int main() {
 	print(v);
 
 
-}*/
+}
 
 
 
