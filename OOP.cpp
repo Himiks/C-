@@ -1,4 +1,4 @@
-﻿/*#include <iostream>
+﻿#include <iostream>
 #include<string>
 using namespace std;
 
@@ -25,14 +25,14 @@ int main()
 
     firstMan.IntriduceSelf();
     firstWoman.IntriduceSelf();
-}*/
+}
 
 
 
 
 
 
-/*#include <iostream>
+#include <iostream>
 #include<string>
 using namespace std;
 
@@ -67,13 +67,13 @@ int main() {
     cout << "Age of firstWoman " << firstWoman.GetAge() << endl;
 
 
-}*/
+}
 
 
 
 
 
-/*#include <iostream>
+#include <iostream>
 #include<string>
 using namespace std;
 
@@ -123,11 +123,11 @@ int main() {
     dd.next();
 
 
-}*/
+}
 
 
 
-/*#include <iostream>
+#include <iostream>
 #include<string>
 using namespace std;
 
@@ -153,7 +153,7 @@ int main() {
     firstHuman.weight = 75;
 
     firstHuman.Print();
-}*/
+}
 
 
 
@@ -161,8 +161,7 @@ int main() {
 
 
 
-
-/*#include <iostream>
+#include <iostream>
 #include<string>
 using namespace std;
 
