@@ -1,0 +1,20 @@
+#pragma once
+#include<vector>
+#include<raylib.h>
+
+class Grid {
+public:
+	Grid();
+	int grid[20][10];
+	void Initialize();
+	void Print();
+	void Draw();
+	bool isCellOutside(int row, int column);
+private:
+	int numRows;
+	int numColums;
+	int cellSize;
+	std::vector<Color> colors;
+
+
+};
